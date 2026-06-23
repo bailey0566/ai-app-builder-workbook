@@ -38,31 +38,20 @@ export const chapter05: Chapter = {
       examples: [
         {
           prompt: "Give me five app ideas for students.",
-          ideas: [
-            "Homework Tracker",
-            "Study Timer",
-            "Vocabulary Builder",
-            "Assignment Reminder",
-            "Goal Tracker"
-          ]
+          ideas:
+            "- Homework Tracker\n- Study Timer\n- Vocabulary Builder\n- Assignment Reminder\n- Goal Tracker"
         },
 
         {
           prompt: "Give me three app ideas for pet owners.",
-          ideas: [
-            "Pet Feeding Reminder",
-            "Vet Appointment Tracker",
-            "Dog Walking Log"
-          ]
+          ideas:
+            "- Pet Feeding Reminder\n- Vet Appointment Tracker\n- Dog Walking Log"
         },
 
         {
           prompt: "Give me ideas for sports fans.",
-          ideas: [
-            "Practice Schedule Tracker",
-            "Team Statistics App",
-            "Fitness Progress Log"
-          ]
+          ideas:
+            "- Practice Schedule Tracker\n- Team Statistics App\n- Fitness Progress Log"
         }
       ],
 
@@ -174,7 +163,7 @@ export const chapter05: Chapter = {
         "Is my project realistic for two weeks?"
       ],
 
-      refinementExamples: [
+      examples: [
         {
           originalIdea: "Build the next Fortnite.",
           problem: "Too large.",
@@ -281,33 +270,23 @@ export const chapter05: Chapter = {
         "Could I make the app easier to use?"
       ],
 
-      alternativeExamples: [
+      examples: [
         {
           problem: "Students forget homework.",
-          possibleSolutions: [
-            "Homework Reminder App",
-            "Assignment Calendar",
-            "Study Checklist",
-            "Daily Planner"
-          ]
+          possibleSolutions:
+            "- Homework Reminder App\n- Assignment Calendar\n- Study Checklist\n- Daily Planner"
         },
 
         {
           problem: "People forget to drink water.",
-          possibleSolutions: [
-            "Water Reminder App",
-            "Daily Health Tracker",
-            "Habit Builder"
-          ]
+          possibleSolutions:
+            "- Water Reminder App\n- Daily Health Tracker\n- Habit Builder"
         },
 
         {
           problem: "People struggle to choose movies.",
-          possibleSolutions: [
-            "Movie Picker",
-            "Favorite Movie List",
-            "Random Movie Generator"
-          ]
+          possibleSolutions:
+            "- Movie Picker\n- Favorite Movie List\n- Random Movie Generator"
         }
       ],
 

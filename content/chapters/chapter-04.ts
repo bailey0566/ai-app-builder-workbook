@@ -25,27 +25,6 @@ export const chapter04: Chapter = {
         "Good creators know when to use AI and when to rely on their own ideas."
       ],
 
-      canDo: [
-        "Generate ideas",
-        "Explain concepts",
-        "Answer questions",
-        "Help write code",
-        "Suggest improvements",
-        "Help organize information",
-        "Assist with problem solving",
-        "Help revise work"
-      ],
-
-      cannotDo: [
-        "Read your mind",
-        "Know exactly what you want without instructions",
-        "Guarantee that every answer is correct",
-        "Replace human creativity",
-        "Make decisions for you",
-        "Understand feelings the same way humans do",
-        "Build great projects without your guidance"
-      ],
-
       leadingQuestions: [
         "What kinds of tasks might AI help you with?",
         "When would you still need to think for yourself?",
@@ -54,6 +33,16 @@ export const chapter04: Chapter = {
       ],
 
       examples: [
+        {
+          category: "AI Can Do",
+          items:
+            "- Generate ideas\n- Explain concepts\n- Answer questions\n- Help write code\n- Suggest improvements\n- Help organize information\n- Assist with problem solving\n- Help revise work"
+        },
+        {
+          category: "AI Cannot Do",
+          items:
+            "- Read your mind\n- Know exactly what you want without instructions\n- Guarantee that every answer is correct\n- Replace human creativity\n- Make decisions for you\n- Understand feelings the same way humans do\n- Build great projects without your guidance"
+        },
         {
           situation: "I need ideas for my app.",
           aiHelps: "Generate possible ideas."
@@ -167,7 +156,11 @@ export const chapter04: Chapter = {
 
       background: [
         "A prompt is the instruction you give to AI.",
-        "Prompts tell AI what you want, who the project is for, how the answer should look, and what details are important."
+        "Prompts tell AI what you want, who the project is for, how the answer should look, and what details are important.",
+        "Prompt formula: Help me create a __________",
+        "for __________",
+        "that helps them __________",
+        "by __________"
       ],
 
       quote:
@@ -178,13 +171,6 @@ export const chapter04: Chapter = {
         "Who the project is for",
         "How the answer should look",
         "What details are important"
-      ],
-
-      promptFormula: [
-        "Help me create a __________",
-        "for __________",
-        "that helps them __________",
-        "by __________"
       ],
 
       examples: [

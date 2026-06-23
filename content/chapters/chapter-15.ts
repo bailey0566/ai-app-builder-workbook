@@ -420,10 +420,6 @@ export const chapter15: Chapter = {
     }
   ],
 
-  completionMessage: [
-    "You learned how to think like a creator.",
-    "You learned how to solve problems.",
-    "You learned how to work with artificial intelligence.",
-    "You proved that you do not have to know everything to build something meaningful."
-  ]
+  nextChapterMessage:
+    "- You learned how to think like a creator.\n- You learned how to solve problems.\n- You learned how to work with artificial intelligence.\n- You proved that you do not have to know everything to build something meaningful."
 };
