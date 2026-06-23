@@ -16,9 +16,15 @@ export default async function WorkbookChapterPage({ params }: PageProps) {
     notFound();
   }
 
-  const index = chapters.findIndex((c) => c.id === chapterId);
-  const prevId = index > 0 ? chapters[index - 1].id : undefined;
-  const nextId = index < chapters.length - 1 ? chapters[index + 1].id : undefined;
+  const prevId =
+    chapter.chapterNumber > 1
+      ? `chapter-${String(chapter.chapterNumber - 1).padStart(2, "0")}`
+      : undefined;
+
+  const nextId =
+    chapter.chapterNumber < 15
+      ? `chapter-${String(chapter.chapterNumber + 1).padStart(2, "0")}`
+      : undefined;
 
   return <ChapterPage chapter={chapter} prevId={prevId} nextId={nextId} />;
 }

@@ -1,4 +1,6 @@
-export const chapter04 = {
+import type { Chapter } from "@/lib/workbookTypes";
+
+export const chapter04: Chapter = {
   id: "chapter-04",
   chapterNumber: 4,
   title: "AI as a Creative Partner",

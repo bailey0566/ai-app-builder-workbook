@@ -1,4 +1,6 @@
-export const chapter09 = {
+import type { Chapter } from "@/lib/workbookTypes";
+
+export const chapter09: Chapter = {
   id: "chapter-09",
   chapterNumber: 9,
   title: "Preparing for Development",
@@ -36,44 +38,20 @@ export const chapter09 = {
       examples: [
         {
           app: "Homework Tracker",
-          versionOne: [
-            "Add homework",
-            "View assignments",
-            "Mark assignments completed"
-          ],
-          futureFeatures: [
-            "Notifications",
-            "Calendar integration",
-            "Color themes"
-          ]
+          versionOne: "- Add homework\n- View assignments\n- Mark assignments completed",
+          futureFeatures: "- Notifications\n- Calendar integration\n- Color themes"
         },
 
         {
           app: "Pet Care App",
-          versionOne: [
-            "Add pet names",
-            "Feeding schedule",
-            "Appointment reminders"
-          ],
-          futureFeatures: [
-            "Photos",
-            "Multiple users",
-            "Maps"
-          ]
+          versionOne: "- Add pet names\n- Feeding schedule\n- Appointment reminders",
+          futureFeatures: "- Photos\n- Multiple users\n- Maps"
         },
 
         {
           app: "Movie Tracker",
-          versionOne: [
-            "Save movies",
-            "Mark movies watched",
-            "Favorite movie list"
-          ],
-          futureFeatures: [
-            "Movie reviews",
-            "Star ratings",
-            "Recommendations"
-          ]
+          versionOne: "- Save movies\n- Mark movies watched\n- Favorite movie list",
+          futureFeatures: "- Movie reviews\n- Star ratings\n- Recommendations"
         }
       ],
 
@@ -191,11 +169,7 @@ export const chapter09 = {
           appName: "Homework Helper",
           problem: "Students forget assignments.",
           users: "Middle school students.",
-          features: [
-            "Add homework",
-            "View assignments",
-            "Mark assignments completed"
-          ]
+          features: "- Add homework\n- View assignments\n- Mark assignments completed"
         }
       ],
 

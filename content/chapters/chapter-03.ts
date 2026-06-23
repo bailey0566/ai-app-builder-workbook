@@ -1,4 +1,6 @@
-export const chapter03 = {
+import type { Chapter } from "@/lib/workbookTypes";
+
+export const chapter03: Chapter = {
   id: "chapter-03",
   chapterNumber: 3,
   title: "Defining My App",
@@ -181,27 +183,15 @@ export const chapter03 = {
       examples: [
         {
           app: "Homework Helper",
-          features: [
-            "Add assignments",
-            "Due date reminders",
-            "Mark assignments as completed"
-          ]
+          features: "- Add assignments\n- Due date reminders\n- Mark assignments as completed"
         },
         {
           app: "Pet Pal",
-          features: [
-            "Feeding reminders",
-            "Medication schedule",
-            "Pet information page"
-          ]
+          features: "- Feeding reminders\n- Medication schedule\n- Pet information page"
         },
         {
           app: "Movie Match",
-          features: [
-            "Favorite movie list",
-            "Search movies",
-            "Mark movies as watched"
-          ]
+          features: "- Favorite movie list\n- Search movies\n- Mark movies as watched"
         }
       ],
 

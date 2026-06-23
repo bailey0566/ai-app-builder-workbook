@@ -24,7 +24,7 @@ export default function WorkbookContentsPage() {
           {chapters.map((chapter) => (
             <li key={chapter.id}>
               <Link
-                href={`/workbook/${chapter.id}`}
+                href={`/workbook/chapter-${String(chapter.chapterNumber).padStart(2, "0")}`}
                 className="flex items-center gap-4 rounded-2xl bg-white px-5 py-4 shadow-sm transition hover:shadow-md"
               >
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-100 text-base font-bold text-indigo-700">

@@ -1,4 +1,6 @@
-export const chapter06 = {
+import type { Chapter } from "@/lib/workbookTypes";
+
+export const chapter06: Chapter = {
   id: "chapter-06",
   chapterNumber: 6,
   title: "Planning Before Building",
@@ -142,29 +144,17 @@ export const chapter06 = {
       examples: [
         {
           app: "Homework Tracker",
-          requirements: [
-            "Add homework assignments",
-            "Mark assignments as completed",
-            "See due dates"
-          ]
+          requirements: "- Add homework assignments\n- Mark assignments as completed\n- See due dates"
         },
 
         {
           app: "Pet Care App",
-          requirements: [
-            "Record pet names",
-            "Add feeding times",
-            "Keep track of appointments"
-          ]
+          requirements: "- Record pet names\n- Add feeding times\n- Keep track of appointments"
         },
 
         {
           app: "Movie App",
-          requirements: [
-            "Save favorite movies",
-            "Mark movies as watched",
-            "Search movie titles"
-          ]
+          requirements: "- Save favorite movies\n- Mark movies as watched\n- Search movie titles"
         }
       ],
 
@@ -281,30 +271,17 @@ export const chapter06 = {
       examples: [
         {
           app: "Homework Tracker",
-          steps: [
-            "Create the home screen.",
-            "Add an assignment list.",
-            "Add due dates.",
-            "Add a completed button."
-          ]
+          steps: "- Create the home screen.\n- Add an assignment list.\n- Add due dates.\n- Add a completed button."
         },
 
         {
           app: "Pet Care App",
-          steps: [
-            "Create a pet profile.",
-            "Add feeding reminders.",
-            "Add appointment tracking."
-          ]
+          steps: "- Create a pet profile.\n- Add feeding reminders.\n- Add appointment tracking."
         },
 
         {
           app: "Movie Tracker",
-          steps: [
-            "Create a movie list.",
-            "Allow users to add movies.",
-            "Mark movies as watched."
-          ]
+          steps: "- Create a movie list.\n- Allow users to add movies.\n- Mark movies as watched."
         }
       ],
 
