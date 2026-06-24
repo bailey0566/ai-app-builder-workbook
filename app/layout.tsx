@@ -1,5 +1,18 @@
 import type { Metadata } from "next";
+import { Space_Grotesk, Fraunces } from "next/font/google";
 import "./globals.css";
+
+const headingFont = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-heading",
+  weight: ["500", "700"],
+});
+
+const bodyFont = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-body",
+  weight: ["400", "500", "600"],
+});
 
 export const metadata: Metadata = {
   title: "AI App Builder Internship",
@@ -13,7 +26,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900 antialiased">
+      <body
+        className={`${headingFont.variable} ${bodyFont.variable} bg-gray-50 text-gray-900 antialiased`}
+        style={{
+          fontFamily: "var(--font-body), serif",
+        }}
+      >
         {children}
       </body>
     </html>
